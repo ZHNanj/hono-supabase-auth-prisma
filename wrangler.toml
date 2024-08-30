@@ -1,0 +1,26 @@
+name = "hono-supabase-auth-prisma"
+compatibility_date = "2024-08-26"
+
+[vars]
+SUPABASE_ANON_KEY=
+SUPABASE_URL=
+SUPABASE_JWT_SECRET=
+POSTGRES_PRISMA_URL=
+POSTGRES_URL_NON_POOLING=
+
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"

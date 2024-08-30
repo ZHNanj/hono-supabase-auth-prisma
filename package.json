@@ -1,0 +1,20 @@
+{
+  "name": "hono-supabase-auth-prisma",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^5.19.0",
+    "@prisma/client": "^5.19.0",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "@supabase/supabase-js": "^2.45.2",
+    "hono": "^4.5.9",
+    "prisma": "^5.19.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "wrangler": "^3.72.3"
+  }
+}
